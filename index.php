@@ -1,7 +1,6 @@
 <?php
 
 require 'includes/head.html';
-
 require 'views/header.html';
 
 switch ($action) {
@@ -9,3 +8,5 @@ switch ($action) {
         require 'views/home.php';
 
 }
+
+require 'views/footer.html';

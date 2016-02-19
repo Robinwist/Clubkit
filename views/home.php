@@ -1,15 +1,14 @@
 <body>
-
 <section class="content">
-    <div id="slider-container">
-        <ul>
-            <li><img src="images/programs/sponsorballen.jpg"></li>
-            <li><img src="images/programs/vriendenmaand.jpg"></li>
-            <li><img src="images/programs/bouw-mee.jpg"></li>
-            <li><img src="images/programs/eendjesrace.jpg"></li>
-            <li><img src="images/programs/adopteer-een-speler.jpg"></li>
-        </ul>
-    </div>
+<!--    <div id="slider-container">-->
+<!--        <ul>-->
+<!--            <li><img src="images/programs/sponsorballen.jpg"></li>-->
+<!--            <li><img src="images/programs/vriendenmaand.jpg"></li>-->
+<!--            <li><img src="images/programs/bouw-mee.jpg"></li>-->
+<!--            <li><img src="images/programs/eendjesrace.jpg"></li>-->
+<!--            <li><img src="images/programs/adopteer-een-speler.jpg"></li>-->
+<!--        </ul>-->
+<!--    </div>-->
 
     <section id="left">
         <h1>Effectief sponsors werven voor je club</h1>
@@ -19,18 +18,18 @@
         <hr>
 
         <h2>Nieuws</h2>
-TEST
 
-        <?
-        if(count($news) > 0): ?>
-            <? foreach($news as $item): ?>
-                <a class="news_item" href="">
-                    <div><span class="fa fa-newspaper-o"></span></div>
-                </a>
-            <? endforeach; ?>
-        <? else: ?>
-            <p>Er is momenteel geen nieuws.</p>
-        <? endif; ?>
+
+<!--        --><?//
+//        if(count($news) > 0): ?>
+<!--            --><?// foreach($news as $item): ?>
+<!--                <a class="news_item" href="">-->
+<!--                    <div><span class="fa fa-newspaper-o"></span></div>-->
+<!--                </a>-->
+<!--            --><?// endforeach; ?>
+<!--        --><?// else: ?>
+<!--            <p>Er is momenteel geen nieuws.</p>-->
+<!--        --><?// endif; ?>
 
 <div id="quotes-container">
     <ul>
