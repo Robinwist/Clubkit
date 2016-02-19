@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'FuturaBT-MediumCondensed';
+    src: url('../fonts/futuramc.eot');
+    src: url('../fonts/futuramc.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/futuramc.woff') format('woff'),
+    url('../fonts/futuramc.ttf') format('truetype'),
+    url('../fonts/futuramc.svg#futuramc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* preload body */
+.preload{
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+
+
+footer{
+    background: #edf5ec;
+    height: 12em;
+}
+
+
+footer #een, footer #twee, footer #drie, footer #vier{
+    /*    background: palegreen;*/
+    width: 25%;
+    display: inline;
+    /*float: left;*/
+    /*    height: auto;*/
+}
+
+footer section h1{
+    color: #555;
+    padding-left: 1.6em;
+
+}
+
+footer section ul{
+    color: grey;
+    text-decoration: none;
+}
+
+footer section ul li{
+    list-style-type: none;
+}
+
+footer section ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+footer section ul li a:hover{
+    /*   color: darkolivegreen;*/
+    color: #5eb153;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.social li{
+    display: inline;
+    float: left;
+}
+
+/* hover font awesome */
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+
+
+.social li a .fa-facebook-square{
+}
+
+.social li a .fa-twitter-square{
+    padding-left: .7em;
+}
+
+.social li a .fa-google-plus-square{
+    padding-left: .7em;
+}
+
+.social li a .fa-facebook-square,
+.social li a .fa-twitter-square,
+.social li a .fa-google-plus-square{
+    color: #5eb153;
+    font-size: 2em;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+
+    transition: all .5s;
+}
+
+
+.social li a .fa-facebook-square:hover, .social li a .fa-facebook-square:focus, .social li a .fa-facebook-square:active{
+    color: royalblue;
+
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+    transition: all .5s;
+}
+
+.social li a .fa-twitter-square:hover, .social li a .fa-twitter-square:focus, .social li a .fa-twitter-square:active{
+    color: deepskyblue;
+
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+    transition: all .5s;
+}
+
+.social li a .fa-google-plus-square:hover, social li a .fa-google-plus-square:focus, social li a .fa-google-plus-square:active{
+    color: crimson;
+
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+    transition: all .5s;
+}
+
+footer #voet{
+    height: 3em;
+    background-color: darkseagreen;
+    float:left;
+    width: 100%;
+    text-align: center;
+    color: #333;
+}
+
+
+/*nieuwsbrief*/
+
+input {
+    font-family: 'FuturaBT-MediumCondensed';
+    color:#333;
+    font-size: 1.2em;
+    width: 8.55em;
+    background-color: white;
+    text-align: center;
+    margin-bottom: .5em;
+    line-height: 1.6em;
+    border: .2em solid white;
+
+}
+
+.nieuws{
+    font-family: 'FuturaBT-MediumCondensed';
+    color: #333;
+    background: #5eb153;
+    width: 11.95em;
+    font-size: .9em;
+    line-height: 1.6em;
+    border: .3em solid darkseagreen;
+    font-weight: 900;
+}
