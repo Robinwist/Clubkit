@@ -438,9 +438,14 @@ form .field.error textarea,
 
 
 footer{
-    background: #edf5ec;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F1F7E3,white ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F1F7E3, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F1F7E3, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F1F7E3, white); /* Standard syntax */
+    border-bottom: 1px solid #4ab05a;
     height: 12em;
-    margin-top: 0;
+    padding-top: 2em;
 }
 
 
@@ -590,7 +595,8 @@ footer section ul li a:hover{
 }
 
 #voet{
-    height: 3em;
+    /*height: 2em;*/
+    padding-top: .5em;
     background-color: darkseagreen;
     float:left;
     width: 100%;
@@ -598,7 +604,6 @@ footer section ul li a:hover{
     color: #333;
 }
 
-
 /*nieuwsbrief*/
 
 input {
@@ -610,45 +615,18 @@ input {
     text-align: center;
     margin-bottom: .5em;
     line-height: 1.6em;
-    border: .2em solid white;
+    border: .2em solid #E7E6E6;
 
 }
 
 .nieuws{
     font-family: 'FuturaBT-MediumCondensed';
-    color: #333;
+    color: white;
     background: #5eb153;
-    width: 11.95em;
-    font-size: .9em;
+    width: 8.125em;
+    font-size: 1.3em;
     line-height: 1.6em;
-    border: .3em solid darkseagreen;
-    font-weight: 900;
-}
-
-
-/*nieuwsbrief*/
-
-input {
-    font-family: 'FuturaBT-MediumCondensed';
-    color:#333;
-    font-size: 1.2em;
-    width: 8.55em;
-    background-color: white;
-    text-align: center;
-    margin-bottom: .5em;
-    line-height: 1.6em;
-    border: .2em solid white;
-
-}
-
-.nieuws{
-    font-family: 'FuturaBT-MediumCondensed';
-    color: #333;
-    background: #5eb153;
-    width: 11.95em;
-    font-size: .9em;
-    line-height: 1.6em;
-    border: .3em solid darkseagreen;
+    border: .1em solid #5eb153;
     font-weight: 900;
 }
 
