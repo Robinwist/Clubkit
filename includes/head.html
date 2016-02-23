@@ -9,10 +9,24 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <link href="css/font.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/impressie.css" type="text/css">
 
-    <script src="/js/jquery-1.11.1.min.js"></script>
-    <script src="/js/html5shiv.min.js"></script>
-    <script src="/js/sticky-navigation.js"></script>
-    <script src="/js/jquery.jpanelmenu-legacy.js"></script>
-    <script src="/js/home.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/sticky-navigation.js"></script>
+    <script src="../js/jquery.jpanelmenu-legacy.js"></script>
+    <script src="../js/home.js"></script>
+
+
+    <script>
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop() > 201) {
+                $(".nav-section").addClass("fixed");
+            } else {
+                $(".nav-section").removeClass("fixed");
+            }
+        });
+    </script>
+
 </head>

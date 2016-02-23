@@ -1,4 +1,16 @@
 <body>
+
+<div id="impressie">
+
+    <div id="impressieText">
+        <h1>Effectief sponsors werven voor je club</h1>
+        <p>Effectief sponsors werven voor je club
+            Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waS!</p>
+        <p><div class="impressieButton"><a class="button" href="">Club gratis aanmelden</a></div><div class="impressieButton"><a class="button" href="">Bekijk de mogelijkheden</a></div></p>
+    </div>
+
+</div>
+
 <section class="content">
 <!--    <div id="slider-container">-->
 <!--        <ul>-->
@@ -12,7 +24,8 @@
 
     <section id="left">
         <h1>Effectief sponsors werven voor je club</h1>
-        <p>Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waardoor leden zich actief inzetten om je club die nieuwe sponsors te bezorgen. Inmiddels zijn er talloze clubs en nationale teams die onze programma's gebruiken om succesvol nieuwe sponsors aan te trekken. Stel de toekomst van je club veilig, gebruik Clubkit en maak van supporters je nieuwe sponsors!</p>
+        <p>Effectief sponsors werven voor je club
+            Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waardoor leden zich actief inzetten om je club die nieuwe sponsors te bezorgen. Inmiddels zijn er talloze clubs en nationale teams die onze programma's gebruiken om succesvol nieuwe sponsors aan te trekken. Stel de toekomst van je club veilig, gebruik Clubkit en maak van supporters je nieuwe sponsors!</p>
         <p><a class="button" href="">Club gratis aanmelden</a><a class="button" href="">Bekijk de mogelijkheden</a></p>
 
         <hr>
@@ -102,7 +115,7 @@
 <h2>Ballenkar was hard nodig, maar tenues konden er ook nog bij!</h2>
 <div class="result">
     <figure class="logo">
-        <img src="images/home/onze-gezellen.png>">
+        <img src="images/home/onze-gezellen.png">
     </figure>
     <section>
         <h2>Onze Gezellen</h2>
