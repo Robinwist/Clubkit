@@ -1,0 +1,38 @@
+#impressie {
+    background: url("../images/home/impressie.jpg");
+    height: 38vh;
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4em;
+
+}
+
+#impressieText h1, p {
+    padding-left: .7em;
+}
+
+#impressie img {
+    opacity: 0.7;
+}
+
+
+#impressieText {
+    width: 40%;
+    background: rgba(0,0,0, .7);
+    height: 18em;
+    color: white;
+    border-radius: 20px;
+}
+
+.impressieButton {
+    float: left;
+    padding-left: 3em;
+}
+
+.impressieButton:first-child {
+    padding-left: 0;
+}
+
+
