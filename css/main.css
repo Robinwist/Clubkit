@@ -6,7 +6,7 @@ del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,  header, menu, nav, section, summary,
 time, mark, audio, video {
@@ -84,13 +84,13 @@ table {
     border-spacing:0;
 }
 
-input, select {
+select {
     vertical-align:middle;
 }
 
 textarea {
-    font-family:Arial, sans-serif;
-    font-size:13px;
+font-family:Arial, sans-serif;
+font-size:13px;
 }
 
 p {
@@ -235,6 +235,10 @@ header {
     vertical-align: -.16em;
 }
 
+nav.active {
+padding-bottom: 0;
+}
+
 li.nav.active {
     padding-top: 1em;
     color: #5eb153;
@@ -260,6 +264,7 @@ header ul {
 
 ul:hover li.nav.active {
     border-bottom: none;
+    line-height: 10px;
 
 }
 header ul li {
@@ -305,7 +310,6 @@ header a {
 /* Underline Reveal */
 .hvr-underline-reveal {
     display: inline-block;
-    vertical-align: middle;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -323,7 +327,7 @@ header a {
     right: 0;
     bottom: 0;
     background: #5eb153;
-    height: 3px;
+    height: 4px;
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
     -webkit-transition-property: transform;
@@ -1380,3 +1384,171 @@ form#registration .reference_detail {
         text-align:left;
     }
 }
+
+/*.left-side-contact {*/
+    /*width: 54%;*/
+    /*float: left;*/
+/*}*/
+
+/*.left-side-contact h1, .right-side-contact h1 {*/
+    /*color: #555;*/
+    /*font-family: 'FuturaBT-MediumCondensed', sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 25px;*/
+    /*font-weight: normal;*/
+/*}*/
+
+/*.left-side-contact p {*/
+    /*word-spacing: -1px;*/
+/*}*/
+
+/*.left-side-contact h4 {*/
+    /*color: #4d7194;*/
+    /*display:inline;*/
+/*}*/
+
+/*.contactform {*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*float: left;*/
+/*}*/
+
+/*label {*/
+    /*line-height: 10px;*/
+    /*margin-top: 20px;*/
+    /*letter-spacing: 2px;*/
+/*}*/
+
+/*form {*/
+    /*margin: 0 auto;*/
+    /*width: 459px;*/
+    /*padding: 0;*/
+    /*margin-top: -1.7rem;*/
+/*}*/
+
+/*input,*/
+/*textarea,*/
+/*file {*/
+    /*font-family: 'FuturaBT-MediumCondensed', sans-serif;*/
+    /*width: 465px;*/
+    /*height: 27px;*/
+    /*background-color: #F1F7E3;*/
+    /*border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*-webkit-border-radius: 5px;*/
+    /*border: 1px solid #4ab05a;*/
+    /*padding: 10px;*/
+    /*margin-top: 3px;*/
+    /*font-size: 0.9em;*/
+    /*color: #3a3a3a;*/
+
+/*}*/
+
+/*input:focus,*/
+/*textarea:focus {*/
+    /*border: 1px solid #97d6eb;*/
+/*}*/
+
+
+/*/!* Styles the text area boxes (message field) *!/*/
+
+/*textarea {*/
+    /*height: 200px;*/
+/*}*/
+
+
+/*/!* Styles the submit button *!/*/
+
+/*#submit {*/
+    /*/!* background:url(images/submit.png); *!/*/
+    /*font-size: 17px;*/
+    /*width: 127px;*/
+    /*height: 48px;*/
+    /*text-align: center;*/
+    /*/!* text-indent:-9999px; *!/*/
+    /*border: none;*/
+    /*margin-top: 20px;*/
+    /*cursor: pointer;*/
+    /*border: 1px solid #4ab05a;*/
+    /*transition: 200ms;*/
+/*}*/
+
+
+/*/!* Styles the submit hover *!/*/
+
+/*#submit:hover {*/
+    /*color: #fff;*/
+    /*background-color: #4d7194;*/
+    /*opacity: 0.9;*/
+    /*transition: 200ms;*/
+/*}*/
+
+
+/*/!* Styles the cancel button*!/*/
+
+/*#cancel {*/
+    /*/!* background:url(images/submit.png); *!/*/
+    /*font-size: 17px;*/
+    /*width: 127px;*/
+    /*height: 48px;*/
+    /*text-align: center;*/
+    /*/!* text-indent:-9999px; *!/*/
+    /*border: none;*/
+    /*margin-top: 20px;*/
+    /*cursor: pointer;*/
+    /*border: 1px solid #4ab05a;*/
+    /*margin-right: 1em;*/
+    /*transition: 200ms;*/
+/*}*/
+
+
+/*/!* Styles the cancel hover *!/*/
+
+/*#cancel:hover {*/
+    /*color: #fff;*/
+    /*background-color: #5eb153;*/
+    /*opacity: 0.9;*/
+    /*transition: 200ms;*/
+/*}*/
+
+/*.inputs {*/
+    /*margin-bottom: 5em;*/
+/*}*/
+
+/*.right-side-contact {*/
+    /*width: 41%;*/
+    /*float:left;*/
+    /*margin-left: 2em;*/
+/*}*/
+
+/*.right-side-contact h1 {*/
+    /*margin-bottom: 20px;*/
+/*}*/
+
+/*.info {*/
+    /*background-color: #F1F7E3;*/
+    /*width: 362px;*/
+    /*height: 260px;*/
+    /*margin-top: 20px;*/
+    /*height: auto;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*.info h1 {*/
+    /*color: #555;*/
+    /*font-family: 'FuturaBT-MediumCondensed', sans-serif;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 25px;*/
+    /*font-weight: normal;*/
+/*}*/
+
+/*.info li {*/
+    /*color: #555;*/
+    /*text-decoration: none;*/
+    /*list-style-type: none;*/
+/*}*/
+
+/*.blank-space {*/
+    /*margin-top: 4em;*/
+    /*transition: 500ms;*/
+/*}*/

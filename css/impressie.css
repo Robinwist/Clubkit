@@ -1,12 +1,21 @@
 #impressie {
     background: url("../images/home/impressie.jpg");
-    height: 38vh;
+    opacity: 1;
+    height: 35vh;
     /*background-size: cover;*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4em;
 
+}
+#impressieText h1{
+    font-size: 2.7em;
+}
+
+#impressieText p{
+    font-size: 1.4em;
+    padding-left: 1.4em;
 }
 
 #impressieText h1, p {
@@ -20,8 +29,7 @@
 
 #impressieText {
     width: 40%;
-    background: rgba(0,0,0, .7);
-    height: 18em;
+    height: 22em;
     color: white;
     border-radius: 20px;
 }
@@ -29,6 +37,21 @@
 .impressieButton {
     float: left;
     padding-left: 3em;
+
+}.button2{
+     display:inline-block;
+     background-color:#4d7194;
+     font-family:'FuturaBT-MediumCondensed', sans-serif;
+     padding:5px 20px;
+     color:#FFF;
+     border:none;
+     -webkit-border-radius:3px;
+     border-radius:3px;
+     margin-top:10px;
+     cursor:pointer;
+     text-decoration:none;
+     text-align:center;
+     font-size:22px;
 }
 
 .impressieButton:first-child {
