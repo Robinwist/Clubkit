@@ -10,9 +10,13 @@ require('classes/Database.php');
 require('classes/Model.php');
 
 require 'includes/head.html';
-require 'views/header.html';
+require 'views/header.php';
 
 switch ($action) {
+
+    case 'home':
+        require 'views/home.php';
+        break;
 
     case 'sporten':
         require 'views/sporten.php';
@@ -39,10 +43,10 @@ switch ($action) {
         break;
 
     case 'contact':
-        require 'views/contact.php';
+        require 'views/contact.html';
         break;
 
-    default;
+    default:
         require 'views/home.php';
 
 }
