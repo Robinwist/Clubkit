@@ -1,3 +1,6 @@
+<?php
+ include '../js/jquery.bxslider.min.js';
+?>
 <body>
 
 <div id="impressie">
@@ -44,46 +47,46 @@
         ?>
 </a>
 
-<!--<div id="quotes-container">-->
-<!--    <ul>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>-->
-<!--                    <p>Hans Huibers, voorzitter Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>-->
-<!--                    <p>Loek Caris, bestuurslid PR van Turnz Amsterdam Gymnastics</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>-->
-<!--                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>-->
-<!--                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</div>-->
+<div id="quotes-container">
+    <ul>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>
+                    <p>Hans Huibers, voorzitter Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>
+                    <p>Loek Caris, bestuurslid PR van Turnz Amsterdam Gymnastics</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
+                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
+                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
 
 <h2>Magnesiumjacht: wie verzamelt de meeste magnesiumblokjes?</h2>
 <div class="result">
