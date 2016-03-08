@@ -135,38 +135,5 @@
         </div>
     </section>
 </div>
-</section>
-
-<section id="right">
-    <a id="tip-a-club" href="tip-een-club">
-        <div class="left">
-            <img src="images/home/goodiebox.png">
-        </div>
-        <div class="right">
-            <h2>Tip een club</h2>
-            <p>Informeer een vereniging over Clubkit en maak kans op een Clubkit-goodiebox.</p>
-        </div>
-    </a>
-
-    <h2>Like, deel en help je club</h2>
-    <p>Maak je club bekend met Clubkit via Twitter, Facebook en Google+.</p>
-
-    <div id="social-media-links">
-        <a href="https://www.facebook.com/clubkitnl" target="_blank"><img src="images/facebook.svg"></a>
-        <a href="https://www.twitter.com/clubkitnl" target="_blank"><img src="images/twitter.svg"></a>
-        <a href="https://plus.google.com/100750598648777817557/about" target="_blank"><img src="images/google_plus.svg"></a>
-    </div>
-
-    <h2>Nieuwsbrief</h2>
-    <p>Blijf op de hoogte van nieuwe programma's, resultaten en acties.</p>
-    <form action="" method="POST" class="newsletter">
-        <input type="text" name="email" id="email" placeholder="Uw e-mailadres...">
-        <a class="button">Aanmelden</a>
-    </form>
-    <div class="confirmation">
-        <p>Hartelijk dank!</p>
-    </div>
-</section>
-</section>
 
 </body>

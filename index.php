@@ -43,7 +43,7 @@ switch ($action) {
         break;
 
     case 'contact':
-        require 'views/contact.html';
+        require 'views/contact.php';
         break;
 
     default:

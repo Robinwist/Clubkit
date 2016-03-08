@@ -1,0 +1,167 @@
+.left-contact {
+    width: 54%;
+    float: left;
+}
+
+.left-contact h1, .right-contact h1 {
+    color: #555;
+    font-family: 'FuturaBT-MediumCondensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.left-contact p {
+    word-spacing: -1px;
+}
+
+.left-contact h4 {
+    color: #4d7194;
+    display:inline;
+}
+
+.contactform {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+label {
+    line-height: 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+form {
+    margin: 0 auto;
+    width: 459px;
+    padding: 0;
+    margin-top: -1.7rem;
+}
+
+input,
+textarea,
+file {
+    font-family: 'FuturaBT-MediumCondensed', sans-serif;
+    width: 465px;
+    height: 27px;
+    background-color: #F1F7E3;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #4ab05a;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #97d6eb;
+}
+
+
+/* Styles the text area boxes (message field) */
+
+textarea {
+    height: 200px;
+}
+
+
+/* Styles the submit button */
+
+#submit {
+    /* background:url(images/submit.png); */
+    font-size: 17px;
+    width: 127px;
+    height: 48px;
+    text-align: center;
+    /* text-indent:-9999px; */
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #4ab05a;
+    transition: 200ms;
+}
+
+
+/* Styles the submit hover */
+
+#submit:hover {
+    color: #fff;
+    background-color: #4d7194;
+    opacity: 0.9;
+    transition: 200ms;
+}
+
+
+/* Styles the cancel button*/
+
+#cancel {
+    /* background:url(images/submit.png); */
+    font-size: 17px;
+    width: 127px;
+    height: 48px;
+    text-align: center;
+    /* text-indent:-9999px; */
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid #4ab05a;
+    margin-right: 1em;
+    transition: 200ms;
+}
+
+
+/* Styles the cancel hover */
+
+#cancel:hover {
+    color: #fff;
+    background-color: #5eb153;
+    opacity: 0.9;
+    transition: 200ms;
+}
+
+.contact-inputs {
+    margin-bottom: 5em;
+}
+
+.right-contact {
+    width: 41%;
+    float:left;
+    margin-left: 2em;
+}
+
+.right-contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    background-color: #F1F7E3;
+    width: 362px;
+    height: 260px;
+    margin-top: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+.contact-info h1 {
+    color: #555;
+    font-family: 'FuturaBT-MediumCondensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.contact-info li {
+    color: #555;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.blank-space {
+    margin-top: 4em;
+    transition: 500ms;
+}
