@@ -1,6 +1,3 @@
-<?php
- include '../js/jquery.bxslider.min.js';
-?>
 <body>
 
 <div id="impressie">
