@@ -45,46 +45,46 @@
         ?>
 </a>
 
-<!--<div id="quotes-container">-->
-<!--    <ul>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>-->
-<!--                    <p>Hans Huibers, voorzitter Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>-->
-<!--                    <p>Loek Caris, bestuurslid PR van Turnz Amsterdam Gymnastics</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>-->
-<!--                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--        <li>-->
-<!--            <div class="quote">-->
-<!--                <img src="images/home/sew.svg">-->
-<!--                <div class="text">-->
-<!--                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>-->
-<!--                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</div>-->
+<div id="quotes-container">
+    <ul>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>
+                    <p>Hans Huibers, voorzitter Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>
+                    <p>Loek Caris, bestuurslid PR van Turnz Amsterdam Gymnastics</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
+                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="quote">
+                <img src="images/home/sew.svg">
+                <div class="text">
+                    <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
+                    <p>Jans-Frits, penningmeester van Westfriesland SEW</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
 
 <h2>Magnesiumjacht: wie verzamelt de meeste magnesiumblokjes?</h2>
 <div class="result">
@@ -135,5 +135,38 @@
         </div>
     </section>
 </div>
+</section>
+
+<section id="right">
+    <a id="tip-a-club" href="tip-een-club">
+        <div class="left">
+            <img src="images/home/goodiebox.png">
+        </div>
+        <div class="right">
+            <h2>Tip een club</h2>
+            <p>Informeer een vereniging over Clubkit en maak kans op een Clubkit-goodiebox.</p>
+        </div>
+    </a>
+
+    <h2>Like, deel en help je club</h2>
+    <p>Maak je club bekend met Clubkit via Twitter, Facebook en Google+.</p>
+
+    <div id="social-media-links">
+        <a href="https://www.facebook.com/clubkitnl" target="_blank"><img src="images/facebook.svg"></a>
+        <a href="https://www.twitter.com/clubkitnl" target="_blank"><img src="images/twitter.svg"></a>
+        <a href="https://plus.google.com/100750598648777817557/about" target="_blank"><img src="images/google_plus.svg"></a>
+    </div>
+
+    <h2>Nieuwsbrief</h2>
+    <p>Blijf op de hoogte van nieuwe programma's, resultaten en acties.</p>
+    <form action="" method="POST" class="newsletter">
+        <input type="text" name="email" id="email" placeholder="Uw e-mailadres...">
+        <a class="button">Aanmelden</a>
+    </form>
+    <div class="confirmation">
+        <p>Hartelijk dank!</p>
+    </div>
+</section>
+</section>
 
 </body>
