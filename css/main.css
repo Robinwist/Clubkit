@@ -726,7 +726,7 @@ section#right {
     display:inline-block;
     margin-top:15px;
     vertical-align:top;
-    width:30%;
+    width:20em;
 }
 
 section#right form input.button {
@@ -1384,7 +1384,176 @@ form#registration .reference_detail {
         text-align:left;
     }
 }
+/*              DIT is de sport section          */
+#sport_section{
+    height:50em;
+    width: 24em;
+    /*background: #ededed;*/
+    float: left;
+    margin-top: 1em;
+    border-top: 1px solid #4ab05a;
+}
 
+#sport_section h1{
+    text-align: center;
+    color: #333;
+    font-family: 'FuturaBT-MediumCondensed';
+
+}
+
+.een{
+    /*    background: url(http://zizo-online.be/sites/default/files/field/image/voetbal_travel2riga.jpg);*/
+    background-size:cover;
+    height: 10em;
+    width: auto;
+    float: left;
+}
+
+.een h2{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+    padding-top: 3.6em;
+    padding-left: 7.9em;
+}
+
+.twee{
+    /*    background: url(http://mariarade.nl/wp-content/uploads/2016/01/28798-1.jpg);*/
+    background-size:cover;
+    height: 10em;
+    width: auto;
+    margin-top: 1.2em;
+    float: left;
+}
+
+.twee h2{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+    padding-top: 3.6em;
+    padding-left: 8.1em;
+}
+
+.drie{
+    /*    background: url(http://joelletel.nl/wp-content/uploads/turnhal-amsterdam1.jpg);*/
+    background-size:cover;
+    height: 10em;
+    width: auto;
+    margin-top: 1.2em;
+    float: left;
+}
+
+.drie h2{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+    padding-top: 3.7em;
+    padding-left: 8.5em;
+}
+
+.vier{
+    /*    background: url(http://www.ogresnovads.lv/images/notikumu_kalendars/sports/handbols_bumba.jpg);*/
+    background-size:cover;
+    height: 10em;
+    width: auto;
+    margin-top: 1.2em;
+    float: left;
+}
+
+.vier h2{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+    padding-top: 3.6em;
+    padding-left: 7.6em;
+}
+
+
+
+
+
+/* Image Box Style */
+.box {
+    cursor: pointer;
+    height: 10em;
+    width: 24em;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    /*margin-top: 2em;*/
+    margin-bottom: 2em;
+}
+
+.box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+
+}
+
+.box:hover img {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+/*******************************Hover 1*******************************/
+/* Caption Common Style */
+.box .caption {
+    background-color: rgba(77,184,72,.5);
+    position: absolute;
+    font-family: sans-serif;
+    z-index: 100;
+    -webkit-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    left: 0;
+}
+
+/** Caption: Fade **/
+.box .fade-caption, .box .scale-caption  {
+    opacity: 0;
+    width: 24em;
+    height: 10em;
+    text-align: left;
+    padding: 1em;
+}
+
+/** Fade Caption :hover Behaviour **/
+.box:hover .fade-caption, .box:hover .scale-caption  {
+    opacity: 1;
+}
+
+.box .fade-caption h3{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+    padding-top: 1.6em;
+    padding-left: 7em;
+    font-family: 'FuturaBT-MediumCondensed';
+}
+
+.box h3{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+}
+
+.box h1{
+    color: white;
+    text-shadow: .1em .1em .1em black;
+    font-family: 'FuturaBT-MediumCondensed';
+    font-size: 2em;
+}
 /*.left-side-contact {*/
     /*width: 54%;*/
     /*float: left;*/
