@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300italic);
+}
+/*koptekst van resultaten*/
+.resultaten h1 p{
+}
+.resultaten h1{
+    color:#555;
+    text-transform: uppercase;
+}
+/*tekst opmaak per section van club*/
+section section h2{
+    color:#a6a6a6;
+    text-transform: uppercase;
+}
+p.upper{
+    color:#555;
+    text-transform: uppercase;
+    font-family: 'FuturaBT-MediumCondensed';
+}
+.header{
+    max-width:34em;
+}
+/*deel van subheader "opbrengsten"*/
+.p-hd-opb{
+    text-transform: uppercase;
+    text-align:right;
+    margin-left:auto;
+    margin-right: 1em;
+    margin-bottom:1.7em;
+    align-self: flex-end;
+}
+/*opbrengst eigenschappen worden door flex onder elkaar gezet of genegeerd*/
+.wrap{
+    margin-bottom:-1em;
+    width:25em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nowrap{
+    display: flex;
+}
+
+/*logo positie van een club en buttons en opmaak tekst van buttons*/
+.logo-club{
+    margin-right:1em;
+    margin-bottom:1em;
+}
+
+.img-buttons{
+    width:5em;
+}
+.p{
+    margin-left:0.5em;
+    margin-top: 3em;
+}
+.p-opb{
+    font-size:2em;
+    margin-left:0.3em;
+    color: #4d7194;
+}
+/* opmaak van quote's per club*/
+.quote{
+    border:1px solid white;
+    margin-top: 1em;
+    width:34em;
+    height:15em;
+    background-image: url(resultaten-im/s-quote.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.p-quote{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:1em;
+    line-height: 1.5em;
+    margin:2em 0 0 3.5em;
+    max-width:17em;
+}
+/* scheidingslijn per section*/
+.hr{
+    margin-top:2em;
+    margin-left:0;
+    width:22em;
+    height:0.2em;
+    border:0;
+    margin-bottom:1em;
+    background-color:#50b748;
+}
+@media screen and (min-width: 550px){
+    /*uitlijning section "groter scherm"*/
+    .wrap{
+        width: 35em;
+    }
+    .center{
+        /*margin-left:1em;*/
+        margin: 0 auto;
+        padding:0;
+        width:50%;
+
+    }
+    .center-right{
+        float: right;
+        margin-right: 20%;
+    }
+    .center-left{
+        float: left;
+        margin-left: 20%;
+    }
+    /* opmaak van quote's per club "groter scherm"*/
+    .quote{
+        border:1px solid white;
+        margin-top: 1em;
+        width:34em;
+        height:12em;
+        background-image: url(resultaten-im/quote.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .p-quote{
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size:1em;
+        line-height: 1.5em;
+        margin:2em 0 0 4.5em;
+        max-width:17em;
+    }
+    /*scheidingslijn per section "groter scherm"*/
+    .hr{
+        width:33em;
+    }
+}
