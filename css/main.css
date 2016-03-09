@@ -179,12 +179,12 @@ header @font-face {
     src: url(futuramc.woff);
 }
 
-footer body {
-    color: #4d7194;
-    font-family: 'FuturaBT-MediumCondensed', sans-serif;
-    font-weight: normal;
-    height: 100%;
-}
+/*footer body {*/
+    /*color: #4d7194;*/
+    /*font-family: 'FuturaBT-MediumCondensed', sans-serif;*/
+    /*font-weight: normal;*/
+    /*height: 100%;*/
+/*}*/
 
 header {
     width: 100%;
@@ -459,10 +459,33 @@ footer{
     background: -o-linear-gradient(#F1F7E3, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#F1F7E3, white); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#F1F7E3, white); /* Standard syntax */
-    border-bottom: 1px solid #4ab05a;
+    /*border-bottom: 1px solid #4ab05a;*/
     height: 12em;
     padding-top: 2em;
     border-top: 1px solid #4ab05a;
+}
+
+footer section#logos {
+    max-width:940px;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:50px;
+    text-align:center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer section#logos figure {
+    display:inline-block;
+    margin-right:20px;
+    margin-bottom: 20px;
+}
+
+footer section#logos figure img {
+    max-height:65px;
+    max-width:100px;
+    text-align:center;
+    vertical-align:middle;
 }
 
 
@@ -471,7 +494,7 @@ footer #een, footer #twee, footer #drie, footer #vier{
     width: 25%;
     display: inline;
     float: left;
-    /*    height: auto;*/
+    height: 12em;
     text-align: center;
 }
 
@@ -733,42 +756,43 @@ section#right form input.button {
     float:right;
 }
 
-section#right a#tip-a-club {
-    background-color:#4d7194;
+section#left a#tip-a-club {
+    /*background-color:#4d7194;*/
     display:block;
     margin:25px 0;
     padding:15px 15px 2px 5px;
-    color:#FFF;
     text-decoration:none;
     font-size:13px;
+    border-bottom: 2px solid #d3d3d3;
+
 }
 
-section#right a#tip-a-club div.left {
+section#left a#tip-a-club div.left {
     display:inline-block;
     margin-right:5px;
     width:30%;
 }
 
-section#right a#tip-a-club div.left img {
+section#left a#tip-a-club div.left img {
     width:75px;
 }
 
-section#right a#tip-a-club div.right {
+section#left a#tip-a-club div.right {
     display:inline-block;
     width:60%;
 }
 
-section#right a#tip-a-club div.right h2 {
+section#left a#tip-a-club div.right h2 {
     color:#FFF;
     margin-bottom:0;
 }
 
-section#right div#social-media-links {
+section#left div#social-media-links {
     text-align:center;
     width:100%;
 }
 
-section#right div#social-media-links img {
+section#left div#social-media-links img {
     height:50px;
     width:50px;
     margin-right:15px;
@@ -1158,13 +1182,13 @@ form#registration .reference_detail {
         width:100%;
     }
 
-    section#right a#tip-a-club div.left {
+    section#left a#tip-a-club div.left {
         display:inline-block;
         margin-right:5px;
         width:75px;
     }
 
-    section#right a#tip-a-club div.right {
+    section#left a#tip-a-club div.right {
         display:inline-block;
         vertical-align:top;
         width:60%;
@@ -1554,6 +1578,96 @@ form#registration .reference_detail {
     font-family: 'FuturaBT-MediumCondensed';
     font-size: 2em;
 }
+
+/*sponsoracties*/
+
+#sponsor2{
+    /*background: #edf5ec;*/
+    width: 50%;
+    height: 27em;
+    float: left;
+}
+
+#sponsor2 h2, #vriendenvan2 h2, #bouwmee2 h2, #adopteer2 h2{
+    font-family: 'FuturaBT-MediumCondensed';
+    padding-left: 1em;
+}
+
+#sponsor2 p, #vriendenvan2 p, #bouwmee2 p, #adopteer2 p {
+    font-family: 'FuturaBT-MediumCondensed';
+    padding-left: 1em;
+    font-size: 1.1em;
+    color:grey;
+}
+
+#sponsor2 .aanmelden2, #vriendenvan2 .aanmelden2, #bouwmee2 .aanmelden2, #adopteer2 .aanmelden2{
+    margin-left: .8em;
+
+    display:inline-block;
+    background-color:#4ab05a;
+    font-family:'FuturaBT-MediumCondensed', sans-serif;
+    padding:5px 20px;
+    color:#FFF;
+    border:none;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    margin-top:10px;
+    cursor:pointer;
+    text-decoration:none;
+    text-align:center;
+    font-size:22px;
+
+}
+
+#sponsor2 .sport2, #vriendenvan2 .sport2, #bouwmee2 .sport2, #adopteer2 .sport2{
+    margin-left: 1em;
+
+    display:inline-block;
+    background-color:#4d7194;
+    font-family:'FuturaBT-MediumCondensed', sans-serif;
+    padding:5px 20px;
+    color:#FFF;
+    border:none;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    margin-top:10px;
+    cursor:pointer;
+    text-decoration:none;
+    text-align:center;
+    font-size:22px;
+}
+
+
+#vriendenvan2{
+    /*background: #edf5ec;*/
+    width: 50%;
+    height: 27em;
+    float: left;
+}
+
+#bouwmee2{
+    /*background: #edf5ec;*/
+    width: 50%;
+    height: 27em;
+    float: left;
+}
+
+#adopteer2{
+    /*background: #edf5ec;*/
+    width: 50%;
+    height: 27em;
+    float: left;
+}
+
+/*h1{*/
+    /*font-family: 'FuturaBT-MediumCondensed';*/
+    /*color:#4d7194;*/
+/*}*/
+
+/*p{*/
+    /*font-family: 'FuturaBT-MediumCondensed';*/
+    /*font-size: 1.2em;*/
+/*}*/
 /*.left-side-contact {*/
     /*width: 54%;*/
     /*float: left;*/

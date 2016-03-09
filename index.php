@@ -23,7 +23,7 @@ switch ($action) {
         break;
 
     case 'acties':
-        require 'views/acties.php';
+        require 'views/acties.html';
         break;
 
     case 'workshops':

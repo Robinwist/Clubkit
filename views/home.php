@@ -24,12 +24,6 @@
 <!--    </div>-->
 
     <section id="left">
-        <h1>Effectief sponsors werven voor je club</h1>
-        <p>Effectief sponsors werven voor je club
-            Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waardoor leden zich actief inzetten om je club die nieuwe sponsors te bezorgen. Inmiddels zijn er talloze clubs en nationale teams die onze programma's gebruiken om succesvol nieuwe sponsors aan te trekken. Stel de toekomst van je club veilig, gebruik Clubkit en maak van supporters je nieuwe sponsors!</p>
-        <p><a class="button" href="">Club gratis aanmelden</a><a class="button" href="">Bekijk de mogelijkheden</a></p>
-
-        <hr>
 
         <h2>Nieuws</h2>
 
@@ -113,59 +107,52 @@
 
 <hr class="gray">
 
-<h2>Ballenkar was hard nodig, maar tenues konden er ook nog bij!</h2>
-<div class="result">
-    <figure class="logo">
-        <img src="images/home/onze-gezellen.png">
-    </figure>
-    <section>
-        <h2>Onze Gezellen</h2>
-        <span class="sport basketbal">Basketbal</span>
-        <div>
-            <strong>Actie</strong>
-            <p>Sponsorballen</p>
+<!--<h2>Ballenkar was hard nodig, maar tenues konden er ook nog bij!</h2>-->
+<!--<div class="result">-->
+<!--    <figure class="logo">-->
+<!--        <img src="images/home/onze-gezellen.png">-->
+<!--    </figure>-->
+<!--    <section>-->
+<!--        <h2>Onze Gezellen</h2>-->
+<!--        <span class="sport basketbal">Basketbal</span>-->
+<!--        <div>-->
+<!--            <strong>Actie</strong>-->
+<!--            <p>Sponsorballen</p>-->
+<!--        </div>-->
+<!--        <div class="time">-->
+<!--            <strong>Looptijd</strong>-->
+<!--            <p>1 maand</p>-->
+<!--        </div>-->
+<!--        <div class="amount">-->
+<!--            <strong>Opbrengst</strong>-->
+<!--            <p>&euro; 1.715,-</p>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--</div>-->
+
+        <a id="tip-a-club" href="tip-een-club">
+            <div class="left">
+                <img src="images/home/goodiebox.png">
+            </div>
+            <div class="left">
+                <h2>Tip een club</h2>
+                <p>Informeer een vereniging over Clubkit en maak kans op een Clubkit-goodiebox.</p>
+            </div>
+        </a>
+
+        <h2>Like, deel en help je club</h2>
+        <p>Maak je club bekend met Clubkit via Twitter, Facebook en Google+.</p>
+
+        <div id="social-media-links">
+            <a href="https://www.facebook.com/clubkitnl" target="_blank"><img src="images/facebook.svg"></a>
+            <a href="https://www.twitter.com/clubkitnl" target="_blank"><img src="images/twitter.svg"></a>
+            <a href="https://plus.google.com/100750598648777817557/about" target="_blank"><img src="images/google_plus.svg"></a>
         </div>
-        <div class="time">
-            <strong>Looptijd</strong>
-            <p>1 maand</p>
-        </div>
-        <div class="amount">
-            <strong>Opbrengst</strong>
-            <p>&euro; 1.715,-</p>
-        </div>
-    </section>
-</div>
+
 </section>
 
 <section id="right">
-    <a id="tip-a-club" href="tip-een-club">
-        <div class="left">
-            <img src="images/home/goodiebox.png">
-        </div>
-        <div class="right">
-            <h2>Tip een club</h2>
-            <p>Informeer een vereniging over Clubkit en maak kans op een Clubkit-goodiebox.</p>
-        </div>
-    </a>
 
-    <h2>Like, deel en help je club</h2>
-    <p>Maak je club bekend met Clubkit via Twitter, Facebook en Google+.</p>
-
-    <div id="social-media-links">
-        <a href="https://www.facebook.com/clubkitnl" target="_blank"><img src="images/facebook.svg"></a>
-        <a href="https://www.twitter.com/clubkitnl" target="_blank"><img src="images/twitter.svg"></a>
-        <a href="https://plus.google.com/100750598648777817557/about" target="_blank"><img src="images/google_plus.svg"></a>
-    </div>
-
-    <h2>Nieuwsbrief</h2>
-    <p>Blijf op de hoogte van nieuwe programma's, resultaten en acties.</p>
-    <form action="" method="POST" class="newsletter">
-        <input type="text" name="email" id="email" placeholder="Uw e-mailadres...">
-        <a class="button">Aanmelden</a>
-    </form>
-    <div class="confirmation">
-        <p>Hartelijk dank!</p>
-    </div>
     <div id="sport_section">
         <h1>Sport top 4</h1>
 
@@ -204,10 +191,12 @@
             </span>
             </div>
         </div>
-
-
-
     </div>
+
+
+
+
+
 
 </section>
 </section>
