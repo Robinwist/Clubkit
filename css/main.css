@@ -659,16 +659,16 @@ input {
 
 }
 
-.nieuws{
-    font-family: 'FuturaBT-MediumCondensed';
-    color: white;
-    background: #5eb153;
-    width: 8.125em;
-    font-size: 1.3em;
-    line-height: 1.6em;
-    border: .1em solid #5eb153;
-    font-weight: 900;
-}
+/*.nieuws{*/
+    /*font-family: 'FuturaBT-MediumCondensed';*/
+    /*color: white;*/
+    /*background: #5eb153;*/
+    /*width: 8.125em;*/
+    /*font-size: 1.3em;*/
+    /*line-height: 1.6em;*/
+    /*border: .1em solid #5eb153;*/
+    /*font-weight: 900;*/
+/*}*/
 
 /* Home */
 .newsletter input {
