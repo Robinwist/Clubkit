@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'futura_mdcn_btmedium';
-    src: url('futuramc-webfont.eot');
-    src: url('futuramc-webfont.eot?#iefix') format('embedded-opentype'), url('futuramc-webfont.woff2') format('woff2'), url('futuramc-webfont.woff') format('woff'), url('futuramc-webfont.ttf') format('truetype'), url('futuramc-webfont.svg#futura_mdcn_btmedium') format('svg');
+    src: url('fonts/futuramc-webfont.eot');
+    src: url('fonts/futuramc-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/futuramc-webfont.woff2') format('woff2'), url('fonts/futuramc-webfont.woff') format('woff'), url('fonts/futuramc-webfont.ttf') format('truetype'), url('fonts/futuramc-webfont.svg#futura_mdcn_btmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,6 +16,7 @@ body {
     color: #4d7194;
     font-family: 'FuturaBT-MediumCondensed', sans-serif;
     font-weight: normal;
+    overflow-x: hidden;
 }
 
 .logo-section {
@@ -336,7 +337,7 @@ button.aanmelden {
 }
 
 .inschrijven {
-    background-color: oud;
+    /*background-color: oud;*/
     width: 500px;
     height: 500px;
     position: absolute;
@@ -560,7 +561,7 @@ strong {
     -webkit-box-shadow: 0px 0px 38px 6px rgba(74, 176, 90, 1);
     -moz-box-shadow: 0px 0px 38px 6px rgba(74, 176, 90, 1);
     box-shadow: 0px 0px 38px 6px rgba(74, 176, 90, 1);
-    Copy Text Copy Text Copy Text transition: 200ms;
+    /*Copy Text Copy Text Copy Text transition: 200ms;*/
 }
 
 input[type="radio"] {

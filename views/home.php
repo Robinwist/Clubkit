@@ -42,7 +42,7 @@
 <div id="quotes-container">
     <ul>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>
@@ -51,7 +51,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>
@@ -60,7 +60,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
@@ -69,7 +69,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>

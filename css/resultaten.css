@@ -66,7 +66,7 @@ p.upper{
     margin-top: 1em;
     width:34em;
     height:15em;
-    background-image: url(resultaten-im/s-quote.png);
+    background-image: url(../images/resultaten-im/s-quote.png);
     background-size: 70%;
     background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@ p.upper{
         margin-top: 1em;
         width:34em;
         height:12em;
-        background-image: url(resultaten-im/quote.png);
+        background-image: url(../images/resultaten-im/quote.png);
         background-size: 100%;
         background-repeat: no-repeat;
     }
