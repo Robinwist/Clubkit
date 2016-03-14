@@ -16,13 +16,11 @@
 }
 
 .left-contact h4 {
-
     color: #4d7194;
     display:inline;
 }
 
 .contactform {
-
     width: 50%;
     height: 100%;
     float: left;
@@ -32,7 +30,6 @@ label {
     line-height: 10px;
     margin-top: 20px;
     letter-spacing: 2px;
-
 }
 
 form {
@@ -40,7 +37,6 @@ form {
     width: 459px;
     padding: 0;
     margin-top: -1.7rem;
-
 }
 
 input,
@@ -157,18 +153,15 @@ textarea {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: normal;
-
 }
 
 .contact-info li {
-
     color: #555;
     text-decoration: none;
     list-style-type: none;
 }
 
 .blank-space {
-
     margin-top: 4em;
     transition: 500ms;
 }

@@ -7,17 +7,7 @@
         <p>Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waardoor leden zich actief inzetten
             <br>
             om je club die nieuwe sponsors te bezorgen.</p>
-        <p>
-
-            <div class="impressieButton">
-                <a class="button" href="?action=contact">Club gratis aanmelden</a>
-        </div>
-
-        <div class="impressieButton">
-                <a class="button2" href="?action=acties">Bekijk de mogelijkheden</a>
-        </div>
-
-        </p>
+        <p><div class="impressieButton"><a class="button" href="">Club gratis aanmelden</a></div><div class="impressieButton"><a class="button2" href="">Bekijk de mogelijkheden</a></div></p>
     </div>
 
 </div>
@@ -52,7 +42,7 @@
 <div id="quotes-container">
     <ul>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met ons Dames 1 team hebben we in enkele weken &euro; 3.720,- opgehaald om zaalhuur te bekostigen."</p>
@@ -61,7 +51,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Dat we &euro; 12.000,- in een maand zouden ophalen, hield niemand binnen de club rekening mee."</p>
@@ -70,7 +60,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
@@ -79,7 +69,7 @@
             </div>
         </li>
         <li>
-            <div class="quote">
+            <div class="homeQuote">
                 <img src="images/home/sew.svg">
                 <div class="text">
                     <p>"Met slechts &eacute;&eacute;n team hebben wij in enkele weken al &euro; 1.000,- binnengehaald."</p>
