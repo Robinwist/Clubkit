@@ -7,7 +7,17 @@
         <p>Is je vereniging op zoek naar nieuwe manieren om succesvol sponsors te werven? Clubkit biedt praktische en vooral effectieve online sponsorprogramma's waardoor leden zich actief inzetten
             <br>
             om je club die nieuwe sponsors te bezorgen.</p>
-        <p><div class="impressieButton"><a class="button" href="">Club gratis aanmelden</a></div><div class="impressieButton"><a class="button2" href="">Bekijk de mogelijkheden</a></div></p>
+        <p>
+
+            <div class="impressieButton">
+                <a class="button" href="?action=contact">Club gratis aanmelden</a>
+        </div>
+
+        <div class="impressieButton">
+                <a class="button2" href="?action=acties">Bekijk de mogelijkheden</a>
+        </div>
+
+        </p>
     </div>
 
 </div>
