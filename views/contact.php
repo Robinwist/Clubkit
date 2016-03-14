@@ -10,7 +10,9 @@
 
     <div class="left-contact">
         <h1>Contact</h1><br>
-        <p>Aangezien de Clubkit sponsorprogramma's waarschijnlijk nieuw voor u zijn, kunnen wij ons voorstellen dat u vragen heeft. Wilt u informatie of een presentatie aanvragen, of heeft u interesse in samenwerkingsmogelijkheden? Neem contact met ons op.</p><br><br>
+        <p>Aangezien de Clubkit sponsorprogramma's waarschijnlijk nieuw voor u zijn, kunnen wij ons voorstellen dat u vragen heeft.</p>
+        <p> Wilt u informatie of een presentatie aanvragen, of heeft u interesse in samenwerkingsmogelijkheden? Neem contact met ons op.</p><br><br>
+
         <div class="contactform">
 
             <form id="myForm" action="form.php" method="post" enctype="multipart/form-data" target="_blank">
@@ -44,8 +46,8 @@
 
         <div class="contact-info">
             <h1>Contactinformatie</h1>
-            <p>Wij zijn bereikbaar op werkdagen tussen 09:00 � 17:00 uur </p><br>
-            <p>op telefoonnummer: 023 � 531 41 94.</p><br>
+            <p>Wij zijn bereikbaar op werkdagen tussen 09:00 : 17:00 uur </p><br>
+            <p>op telefoonnummer: 023 : 531 41 94.</p><br>
             <li>Clubkit B.V.</li>
             <li>Wateringweg 29</li>
             <li>2031 EK Haarlem</li>
