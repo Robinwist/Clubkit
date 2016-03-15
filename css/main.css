@@ -209,7 +209,6 @@ header {
     margin-top: -9em;
     margin-bottom: 5em;
     border-bottom: 1px solid #4ab05a;
-    z-index: 999;
 }
 
 .logo-section {
@@ -814,24 +813,24 @@ section#left div#quotes-container .bx-clone {
     display:none;
 }
 
-section#left div#quotes-container .homeQuote {
+section#left div#quotes-container .quote {
     margin:0 auto;
 }
 
-section#left div#quotes-container .homeQuote img {
+section#left div#quotes-container .quote img {
     float:left;
     height:120px;
     margin-right:30px;
 }
 
-section#left div#quotes-container .homeQuote p:first-child {
+section#left div#quotes-container .quote p:first-child {
     font-style:italic;
     font-size:20px;
     line-height:24px;
     color:#8f8f8f;
 }
 
-section#left div#quotes-container .homeQuote p:last-child {
+section#left div#quotes-container .quote p:last-child {
     font-style:italic;
     color:#8f8f8f;
 }
@@ -1334,11 +1333,11 @@ form#registration .reference_detail {
         width:100%;
     }
 
-    section#left div#quotes-container .homeQuote {
+    section#left div#quotes-container .quote {
         width:100%;
     }
     
-    section#left div#quotes-container .homeQuote img {
+    section#left div#quotes-container .quote img {
         float:none;
         margin:0 auto;
         margin-bottom:15px;
